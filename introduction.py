@@ -127,8 +127,8 @@ def get_min(my_list):
         for j in range(len(my_list)):
             if my_list[i] > my_list[j]:
                 break
-            else:
-                print(my_list[i])
+        else:
+            print(my_list[i])
 
 print(get_min(my_list))
 def get_min2():
